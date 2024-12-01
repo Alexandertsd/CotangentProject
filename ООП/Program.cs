@@ -26,7 +26,5 @@ public class Program
             }
             x += step;
         } while (x <= end);
-    // Додаємо нове повідомлення
-        Console.WriteLine("\nПрограма завершена.");
     }
 }
