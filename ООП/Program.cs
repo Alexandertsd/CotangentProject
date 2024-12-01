@@ -1,11 +1,10 @@
 using System;
-
 public class Program
 {
     public static void Main()
-    {
+ {
         double start, end, step;
-        Console.WriteLine("Введіть початкове значення кута (в градусах): ");
+        Console.WriteLine("Введіть початкове значення кута (в граду-сах): ");
         start = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введіть кінцеве значення кута (в градусах): ");
         end = Convert.ToDouble(Console.ReadLine()); 
@@ -27,7 +26,5 @@ public class Program
             }
             x += step;
         } while (x <= end);
-// Додаємо нове повідомлення
-        Console.WriteLine("\nПрограма завершена.");
     }
 }
